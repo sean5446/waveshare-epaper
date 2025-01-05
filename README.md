@@ -39,6 +39,6 @@ To quickly mess around with the code and see what the results look like, use:
 
 `python3 stock_test_screens.py`
 
-To actually run the code on the raspi, use
+To run indefintely on the raspi, use:
 
-`python3 stock.py`
+`nohup python3 epaper.py > /dev/null &`

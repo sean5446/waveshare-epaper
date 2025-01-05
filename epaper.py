@@ -111,7 +111,7 @@ while True:
         if time.localtime().tm_hour >= 16:
             time.sleep(17.5 * 60 * 60)
         else:
-            time.sleep(180)
+            time.sleep(405)
 
     except Exception as e:
         logging.error("ERROR")
