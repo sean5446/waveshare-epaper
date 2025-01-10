@@ -3,12 +3,14 @@
 ## Background
 For this project, I was using the 2.13inch e-Paper HAT (G) from Waveshare
 
-It takes about 20 seconds to update the G HAT. The datasheets says its about 25 seconds. The datasheet says the 3 color screens (no yellow) refresh in about 15 seconds. The white/black screens have a partial refresh that is fast. 
+It takes about 20 seconds to update the G HAT screen. The datasheets says its about 25 seconds. The datasheet says the 3 color screens (no yellow) refresh in about 15 seconds. The white/black screens have a partial refresh that is fast. 
 
 ## Stock Graph
 Notice the jitter and moving text to try to prevent burn-in
 
 ![Loading animation](animated_graph.gif)
+
+<img src="screen.png" alt="screen" width="500"/>
 
 ## Precautions
 The screen should be refreshed at least once every 24 hours, with a minimum refresh interval of 180 seconds. To prevent damage, it should not stay powered on for extended periods. After displaying content, the screen should be put into sleep mode. When not in use, the screen should either be set to sleep mode or powered off.
