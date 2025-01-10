@@ -5,3 +5,6 @@ venv
 **/__pycache__/
 
 Font.ttc
+
+nohup.out
+
